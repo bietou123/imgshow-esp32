@@ -1,0 +1,31 @@
+# 真密钥/WiFi 密码只在本地，不要提交
+imgshow/config.h
+imgshow/smoke_imgs.h
+
+# Private notes, source photos and reference-only material
+memory/
+old/
+smoke_source_images/
+liqun_img_reference.h
+nomi_reference.ino
+README.txt
+
+# 编译产物
+build/
+.pio/
+.pioenvs/
+.vscode/
+*.bin
+*.elf
+*.map
+
+# 素材(自己生成的，几十 MB 没必要进仓库)
+data/
+*.565
+*.v64
+
+# 系统垃圾
+Thumbs.db
+desktop.ini
+.DS_Store
+__pycache__/
